@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 100px;
+  height: 120px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  height: 75px;
+  height: 85px;
   padding: 10px 0;
 }
 
@@ -492,6 +492,13 @@ section {
   position: relative;
 }
 
+.section-header h5 {
+  
+  color: #556877;
+  text-align: center;
+  position: relative;
+}
+
 .section-header p {
   text-align: center;
   margin: auto;
@@ -661,6 +668,13 @@ section {
   font-weight: 600;
   font-size: 24px;
 }
+
+#about .about-img img {
+  max-height: 400px;
+  ;
+}
+
+
 
 /* Services Section
 --------------------------------*/
@@ -1170,6 +1184,10 @@ section {
 #team .member .social i {
   font-size: 18px;
   margin: 0 2px;
+}
+
+#team .member img {
+  min-width: 400px;
 }
 
 /* Clients Section
