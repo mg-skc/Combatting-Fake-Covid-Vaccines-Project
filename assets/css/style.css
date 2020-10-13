@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #007bff;
+  background: #008947;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -153,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: #00366f;
+  color: #008947;
   text-decoration: none;
 }
 
